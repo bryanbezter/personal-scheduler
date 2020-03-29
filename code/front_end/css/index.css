@@ -1,6 +1,3 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-
-/* Full-width input fields */
 input[type=text], input[type=password] {
 	width: 100%;
 	padding: 12px 20px;
@@ -10,22 +7,11 @@ input[type=text], input[type=password] {
 	box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
-button {
-	background-color: #4169E1;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	cursor: pointer;
+#loginbtn{
 	width: 100%;
 }
 
-button:hover {
-	opacity: 0.8;
-}
-
-.container {
+.login_form {
 	padding: 16px;
 }
 
@@ -35,9 +21,4 @@ button:hover {
 		display: block;
 		float: none;
 	}
-}
-
-.center{
-	margin: 0 auto;
-    display: block;
 }

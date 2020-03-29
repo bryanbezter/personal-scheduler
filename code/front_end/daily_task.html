@@ -2,28 +2,22 @@
 <html>
 	<head>
 		<title>Personal Scheduler</title>
-		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/daily_task.css">
 		<link rel="stylesheet" href="css/default.css">
-		<script type="text/javascript" src="javascript/index.js"></script>
+		<script src="javascript/default.js"></script>
+		<script src="javascript/daily_task.js"></script>
 		<meta charset="UTF-8">
 		<meta name="description" content="Personal Scheduler">
 		<meta name="keywords" content="schedule,activity,task,reminder">
 		<meta name="author" content="bryanbezter">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body>
-	
-		<h3>Personal Scheduler</h3>
-		<marquee>Please login to continue.</marquee>
-		
-		<div id="login_form" class="login_form">
-				<label><b>Username</b></label>
-				<input id="uname" type="text" placeholder="username" name="uname" required>
-				<label><b>Password</b></label>
-				<input id="pass" type="password" placeholder="password" name="pass" required>
-				<button onclick="login()" id="loginbtn">Login</button>	
+	<body onload="init()">
+		<div id="header" class="header">
+			<h2 id="welcome_section"></h2>
+			<p id="date_section"></p>
 		</div>
-		<div id="footer" class="footer"></div>
+		<div id="menu" class="menu"></div>
 	</body>
 	<footer>
 		<hr/>
